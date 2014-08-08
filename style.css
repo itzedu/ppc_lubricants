@@ -163,6 +163,7 @@ a.button.add {
 	font-size: 0.7em;
 	padding: 0.2em 0.7em;
 	border: 0.2em solid black;
+	border-radius: 10px;
 }
 
 a.button {
