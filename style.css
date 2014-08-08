@@ -13,7 +13,7 @@ body {
 }
 
 .yellow-bar {
-	background-color: #FFFF33;
+	background-color: #FFE560;
 }
 
 .bold {
@@ -25,32 +25,30 @@ body {
 #header {
 	padding: 0 1em 0 1em;
 }
-
-#header img, #header h2 {
-	display: inline-block; vertical-align: top;
-}
-
-#header h2{
-	margin-left: 337px;
-	margin-top: 1.3em;
-	font-size: 1.3em;
-}
+	#header img, #header h2 {
+		display: inline-block; vertical-align: top;
+	}
+	#header h2{
+		margin-left: 337px;
+		margin-top: 1.3em;
+		font-size: 1.3em;
+	}
 
 #nav-bar {
 	background-color: #E8E8E8;
 }
 
-#nav-bar ul {
-	list-style-type: none;
-	padding-left: 2em;
-	border-top: 1px solid gray;
-}
+	#nav-bar ul {
+		list-style-type: none;
+		padding-left: 2em;
+		border-top: 1px solid gray;
+	}
 
-#nav-bar ul li {
-	display: inline-block; vertical-align: top;
-	padding: 0.4em 0.9em;
-	border-left: 1px solid #F8F8F8;
-}
+		#nav-bar ul li {
+			display: inline-block; vertical-align: top;
+			padding: 0.4em 0.9em;
+			border-left: 1px solid #F8F8F8;
+		}
 
 #last-link {
 	border-right: 1px	solid	#F8F8F8;
@@ -83,22 +81,96 @@ body {
 	background-color: #787878;
 }
 
-#about h2 {
-	font-size: 1em;
-	padding: 0.5em 0.4em;
-	border: 1px solid black;
-}
+	#about h2 {
+		font-size: 1em;
+		padding: 0.5em 0.4em;
+		border: 1px solid black;
+	}
 
 #box-content {
 	color:white;
 	margin: 0.9em 1.2em;
 }
 
-#box-content h3 {
-	font-size: 1em;
+	#box-content h3 {
+		font-size: 1em;
+	}
+
+	#box-content #top-p, #box-content #bottom-p {
+		margin-top: 0.9em;
+		font-size: 0.75em;
+	}
+
+#main-middle, #main-bot {
+	padding: 0.7em 3em;
 }
 
-#box-content #top-p, #box-content #bottom-p {
-	margin-top: 0.9em;
+#main-bot {
+	padding: 1em 2.5em;
+}
+
+#main-middle img, #main-middle h2, .box{
+	display: inline-block; vertical-align: top;
+}
+
+#main-middle h2 {
+	color: #FFE560;
+	font-size: 0.8em;
+	font-weight: lighter;
+	padding-left: 1em;
+	padding-top: 0.3em;
+}
+
+.box {
+	width: 215px;
+	height: 280px;
+	background-color: white;
+	margin-right: 1em;
+}
+
+#box1 {
+	margin-right: 0px;
+}
+
+.box img {
+	width: 215px;
+}
+
+#main-bot h2 {
+	font-size: 1em;
+	padding: 0.2em 0.7em;
+}
+
+.box-p {
 	font-size: 0.75em;
+	margin: 1em;
+}
+
+.box-p1 {
+	font-size: 0.75em;
+	margin-bottom: 30px;
+}
+
+p.box-p.add {
+	margin-bottom: 2em;
+}
+
+a.button.add {
+	background-color: #FFE560;
+	text-decoration: none;
+	color: black;
+	margin-left: 110px;
+	font-size: 0.7em;
+	padding: 0.2em 0.7em;
+	border: 0.2em solid black;
+}
+
+a.button {
+	background-color: #FFE560;
+	text-decoration: none;
+	color: black;
+	margin-left: 110px;
+	font-size: 0.7em;
+	padding: 0.2em 0.7em;
+	border: 0.2em solid black;
 }
